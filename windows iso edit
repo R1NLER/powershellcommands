@@ -1,0 +1,2 @@
+DISM /Get-WimInfo /wimfile:install.esd #TO CHECK AN ISO CONTENT
+DISM /export-image /sourceimagefile:install.esd /sourceindex:NUMBER /destinationimagefile:install.wim /compress:max /checkintegrity #TO EXPORT .ESD FILE TO .WIM. NUMBER EQUALS TO YOUR SELECTED VERSION
