@@ -1,8 +1,3 @@
----
-title: Key Management Services (KMS) client activation and product keys for Windows Server and Windows
-description: Get the product keys needed for setup and activation of Windows Server and other Windows products from a KMS host server.
----
-
 # Key Management Services (KMS) client activation and product keys
 
 To use KMS, you need to have a KMS host available on your local network. Computers that activate with a KMS host need to have a specific product key. This key is sometimes referred to as the KMS client key, but it's formally known as a Microsoft Generic Volume License Key (GVLK). Computers that are running volume licensing editions of Windows Server and Windows client are, by default, KMS clients with no extra configuration needed as the relevant GVLK is already there.
